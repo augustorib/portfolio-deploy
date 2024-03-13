@@ -1,0 +1,36 @@
+.container__specialities-box{
+    padding: 10px 5%;
+}
+
+.container__specialities-box > section{
+    padding: 40px 5px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    height: 350px;
+    width: 350px;
+    transition: .3s;
+
+}
+
+.container__specialities-box > section:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.514);
+}
+
+.container__specialities-box > section > i{
+    font-size: 65px;
+    color: var(--app-color);
+}
+
+.container__specialities-box > section > h2{
+    font-size: 27px;
+    margin: 12px 0;
+    
+}
+
+.container__specialities-box > section > p{
+    font-size: 25px;   
+}
+
+

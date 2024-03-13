@@ -1,0 +1,39 @@
+.container__project-box__img {
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    background-position: 0% 0%;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    transition: 3s;
+}
+
+
+.container__project-box__img:hover {
+    background-position: 100% 0%;
+
+}
+
+.container__project-box__img__overlay {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--app-color);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgba(3, 16, 24, 0.342);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+
+.container__project-box__img__overlay:hover {
+    opacity: 1;
+    transition: 1s;
+}

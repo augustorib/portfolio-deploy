@@ -1,0 +1,50 @@
+.container__menu-mobile{
+    background-color: rgba(0, 0, 0, 0.637);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: .4s;
+}
+
+
+.container__menu-mobile.abrir-menu{
+    width: 65%;
+}
+
+.container__menu-mobile.abrir-menu ~ .overlay-page{
+    display: block;
+}
+
+.container__menu-mobile__btn-close {
+    color: var(--app-color);
+    font-size: 25px;
+    padding: 15px 3%;
+}
+
+.container__menu-mobile__nav nav ul{
+    text-align: right;
+    list-style-type: none;
+}
+
+.container__menu-mobile__nav nav ul li{
+    padding: 15px 4%;  
+}
+
+.container__menu-mobile__nav nav ul li a{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+
+}
+
+.container__menu-mobile__nav nav ul li a:hover{
+    background-color: var(--app-color);
+    color: black;
+}

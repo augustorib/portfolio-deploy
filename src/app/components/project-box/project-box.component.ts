@@ -16,7 +16,7 @@ export class ProjectBoxComponent {
   overlayText:string = ""
 
   @Input("site")
-  site:string = "https://augustorib.github.io/DIO_CarrefourWebDeveloper2022/"
+  site:string = ""
 
   redirectToProjectSite(): void {
     window.location.href = this.site;

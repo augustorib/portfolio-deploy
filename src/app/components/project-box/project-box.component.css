@@ -37,3 +37,12 @@
     opacity: 1;
     transition: 1s;
 }
+
+.container__project-box__tecnologies{
+    padding: 5px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+

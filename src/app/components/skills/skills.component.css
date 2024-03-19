@@ -1,6 +1,10 @@
-.container__skills-page{
+.container__skills-page__specialities{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 10px;   
+    gap: 10px;
+}
+
+.container__skills-page__title{
+    margin: 40px 0;
 }

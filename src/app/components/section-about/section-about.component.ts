@@ -11,5 +11,6 @@ import { SocialBtnComponent } from '../social-btn/social-btn.component';
   styleUrl: './section-about.component.css'
 })
 export class SectionAboutComponent {
-  
+
+  pathTecnologieImage:string = "../../../assets/img/tecnologies/"
 }

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { MenuMobileTitleService } from '../../services/menu-mobile-title.service';
 
 @Component({
   selector: 'menu-bar',
@@ -9,18 +10,20 @@ import { RouterLink } from '@angular/router';
   styleUrl: './menu-bar.component.css'
 })
 export class MenuBarComponent {
-  
-  constructor(){
+
+  constructor(public _menuMobileTitleService: MenuMobileTitleService){
   
   }
 
-  OpenMenuMobile() {
+
+  openMenuMobile(): void {
   
     const menuMobile = document.getElementsByClassName('container__menu-mobile')[0];
 
     menuMobile.classList.add("abrir-menu");
   
   }
+
 }
 
 

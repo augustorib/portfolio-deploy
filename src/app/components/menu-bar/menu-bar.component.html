@@ -7,26 +7,24 @@
                     <img src="../../../assets/img/profile.jpg" alt="profile picture" width="50px" height="50px">
                 </a>
             </div>
-        </div><!--container__menu-bar__interface-->
+        </div>
 
         <div class="container__menu-bar__menu-desktop">
             <nav>
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="/skills">Competências</a></li>
+                    <li><a routerLink="">Início</a></li>
+                    <li><a routerLink="/skills">Competências</a></li>
                     <li><a routerLink="/about">Sobre</a></li>
-                    <li><a href="/projects">Projetos</a></li>
+                    <li><a routerLink="/projects">Projetos</a></li>
                 </ul>
             </nav>
-        </div><!--container__menu-bar__menu-desktop-->
-
-        <div class="container__menu-bar__btn-contact">
-            <a href="/contact">
-                <button>Contato</button>
-            </a>
         </div>
 
-        <div class="container__menu-bar__open-menu-mobile" (click)="OpenMenuMobile()">
+        <div class="container__menu-bar__mobile-title">
+            <p>{{_menuMobileTitleService.menuMobileTitle}}</p>
+        </div>
+
+        <div class="container__menu-bar__open-menu-mobile" (click)="openMenuMobile()">
             <i class="bi bi-list"></i>
         </div>
         
